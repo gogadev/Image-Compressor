@@ -1,0 +1,114 @@
+.img-compressor {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.info {
+  width: 49vw;
+  border: 4px double lightgrey;
+}
+
+.main {
+  background: #f6f6f6;
+  border-bottom: 2px solid lightgrey;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 0.2rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.info-title {
+  color: grey;
+  letter-spacing: 8px;
+  padding: 0.2rem;
+}
+
+.img {
+  margin: 1rem auto;
+}
+
+.img img {
+  width: 49%;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 2rem auto;
+}
+
+.file {
+  background: lightgrey;
+  border: 2px double lightgrey;
+}
+
+input[type="file"] {
+  color: transparent;
+}
+
+.input {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download {
+  margin: 1.4rem auto;
+}
+
+.btn {
+  width: 48vw;
+  border: 4px double lightgrey;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+  padding: 0.2rem 1rem;
+  color: grey;
+  outline: lightgrey;
+  margin: 0.9rem auto;
+  cursor: pointer;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  color: grey;
+  font-family: "Pirata One", cursive;
+  letter-spacing: 3px;
+  width: 22vw;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  outline: lightgrey;
+}
+
+.download-btn {
+  padding: 0.1rem 20rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .arrow-img {
+    width: 100%;
+  }
+  .info {
+    width: 80%;
+  }
+  .img img {
+    width: 80%;
+  }
+  .info-title {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    width: 60vw;
+    text-align: center;
+  }
+}

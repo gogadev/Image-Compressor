@@ -1,0 +1,23 @@
+header {
+  background: whitesmoke;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#logo {
+  width: 15%;
+  margin: 0.5rem auto;
+}
+
+.title {
+  background: #ededed;
+  width: 87%;
+  padding: 0.3rem;
+  letter-spacing: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: grey;
+}
